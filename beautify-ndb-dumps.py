@@ -24,8 +24,6 @@ def parse(data):
         elif char == ',':
             print "%s%s%s" % ('    ' * indentation, toDisplay.strip(), char)
             toDisplay = ''
-        elif char == '\n':
-            pass
         else:
             toDisplay = toDisplay + char
 
